@@ -66,7 +66,7 @@ function Footer() {
                     className="text-[15px] font-sans text-[#9ca9bb] transition font-sans hover:text-white"
                   >
                     {" "}
-                    +91 9876543210
+                    +91 6377654586
                   </a>
                 </div>
                 {/* location */}
