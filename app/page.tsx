@@ -42,7 +42,7 @@ function Home() {
               {/* Hire Button */}
               <div className="mt-8">
                 <a
-                  href="#contact"
+                  href="#footer"
                   className="group inline-flex items-center font-sans gap-2 rounded-lg bg-gradient-to-r from-purple-400  to-pink-600 px-7 py-3.5 font-semibold text-white transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-600/30"
                 >
                   Hire Me
