@@ -219,6 +219,98 @@ function projects() {
               </div>
             </div>
           </div>
+
+             {/* project 3 */}
+
+          <div
+            className="mb-10 grid overflow-hidden rounded-2xl bg-gray-800 md:grid-cols-2"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            {/* project image */}
+            <div className="group relative  overflow-hidden sm:min-h-[320px]">
+              <img
+                src="/project3.png"
+                alt="Project 3"
+                className="h-full w-full object-contain transition duration-500 md:pl-2 group-hover:scale-105"
+              />
+
+              {/* image overlay */}
+
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent group-hover:bg-transparent" /> */}
+            </div>
+
+            {/* project details */}
+            <div className="flex flex-col justify-center p-7 font-sans sm:p-9">
+              <p className="mb-2 text-sm font-medium text-gray-300 ">
+                Featured Project
+              </p>
+
+              <h3 className="text-2xl font-semibold text-gray-300 sm:text-3xl">
+                Custom Tech Labs
+              </h3>
+
+              <p className="mt-4 text-sm leading-7 text-gray-300 sm:text-base">
+                A full-stack web application for Transform your business ideas
+                into world-class digital experiences with our expert team of
+                developers, designers, and innovators.
+              </p>
+
+              {/* Technologies */}
+              <div className="mt-6">
+                <p className="mb-3 text-sm font-semibold text-gray-300">
+                  Built With
+                </p>
+
+                <div className="flex flex-wrap gap-3">
+                  <span className="flex items-center gap-2 rounded-lg  bg-[#202020] px-3 py-2 text-sm text-gray-300">
+                    React.js
+                  </span>
+
+                  <span className="flex items-center gap-2 rounded-lg  bg-[#202020] px-3 py-2 text-sm text-gray-300">
+                    Java
+                  </span>
+
+                  <span className="flex items-center gap-2 rounded-lg  bg-[#202020] px-3 py-2 text-sm text-gray-300">
+                    Spring boot
+                  </span>
+
+                  <span className="flex items-center gap-2 rounded-lg  bg-[#202020] px-3 py-2 text-sm text-gray-300">
+                    MySql
+                  </span>
+
+                  <span className="flex items-center gap-2 rounded-lg  bg-[#202020] px-3 py-2 text-sm text-gray-300">
+                    Admin Panel
+                  </span>
+                </div>
+              </div>
+
+              {/* buttons */}
+
+              <div className="mt-7 flex flex-wrap gap-4">
+                <a
+                  href="https://fronted-project-zeta.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer "
+                  className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-semibold transition "
+                >
+                  <ExternalLink size={22} />
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/paras451/myFrontendProject"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-5 py-3 text-sm font-semibold text-white transition  "
+                >
+                  <FaGithub size={18} />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
