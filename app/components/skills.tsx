@@ -107,11 +107,11 @@ function skills() {
                       JavaScript
                     </span>
                   </div>
-                  <span className="text-sm text-gray-400">80%</span>
+                  <span className="text-sm text-gray-400">70%</span>
                 </div>
 
                 <div className="h-2 rounded-full bg-gray-800">
-                  <div className="h-2 w-[80%] rounded-full bg-gradient-to-r from-purple-400  to-pink-600"></div>
+                  <div className="h-2 w-[70%] rounded-full bg-gradient-to-r from-purple-400  to-pink-600"></div>
                 </div>
               </div>
 
