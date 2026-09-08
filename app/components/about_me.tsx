@@ -73,7 +73,7 @@ function About_me() {
               </p>
 
               <p className="mt-4  font-sans lg:text-2xl lg:font-sans leading-7 text-black sm:text-base">
-                I work with technologies such as Java, Spring Boot, React,
+                I work with technologies such as React,
                 Next.js, Django, SQL, and PostgreSQL. I enjoy learning new
                 technologies, solving problems, and creating applications that
                 provide a great user experience.
